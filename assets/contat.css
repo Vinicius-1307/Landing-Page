@@ -1,0 +1,111 @@
+body {
+  background-color: rgb(32, 32, 32);
+  color: white;
+  padding: 5px;
+  margin: 0 auto;
+  max-width: 1250px;
+  font-family: "Poppins", sans-serif;
+  /* position: relative; */
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+}
+
+#title h1 {
+  flex-direction: column;
+  line-height: 50px;
+  font-size: 50px;
+}
+
+#title span {
+  color: rgb(132, 14, 201);
+  border-style: solid;
+  border-bottom-width: 2px;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-left-width: 0;
+}
+
+li {
+  display: inline-block;
+  margin: 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+#inscreva {
+  border: 2px solid rgb(132, 14, 201);
+  padding: 10px;
+  border-radius: 15px;
+}
+
+span {
+  color: rgb(132, 14, 201);
+}
+
+/* Nav-Instagram */
+.instragram-nav {
+  position: relative;
+}
+
+.instagram {
+  font-size: 30px;
+}
+
+.icon-instagram {
+  position: absolute;
+  top: 276px;
+  left: 122px;
+}
+
+.inst {
+  padding-left: 40px;
+}
+
+/* Nav-Facebook */
+
+.facebook-nav {
+  position: relative;
+}
+
+.facebook {
+  font-size: 30px;
+}
+
+.icon-facebook {
+  position: absolute;
+  top: 5px;
+  left: -2px;
+}
+
+.face {
+  padding-left: 40px;
+}
+
+/* Nav-WhatsApp */
+
+.whatsapp-nav {
+  position: relative;
+}
+
+.icon-whatsapp {
+  position: absolute;
+  top: 4px;
+  left: 1px;
+}
+
+.wpp {
+  padding-left: 40px;
+}
+
+.whatsapp {
+  font-size: 30px;
+}

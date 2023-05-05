@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./assets/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+  <title>Landing Page</title>
+</head>
+
+<body>
+  <header>
+    <div class="list">
+
+      <div id="title">
+        <h1>Creative<br><span>Shop</span></h1>
+      </div>
+      <ul>
+        <a href="./index.html">
+          <li>Início</li>
+        </a>
+        <a href="./screens/work.html">
+          <li>Serviços</li>
+        </a>
+        <a href="./screens/about.html">
+          <li>Sobre</li>
+        </a>
+        <a href="./screens/contat.html">
+          <li>Contato</li>
+        </a>
+        <a href="./screens/account.html" id="inscreva">
+          <li>Já tem uma conta?</li>
+        </a>
+      </ul>
+    </div>
+  </header>
+  <div class="main">
+    <aside>
+      <h2><span>Inscreva-se agora</span><br>na CreativeShop.</h2>
+      <p>
+        A CreativeShop é uma empresa que foi criada com o foco em <span>RESOLVER</span> problemas. Se você precisa de uma solução para seu problema, está no lugar certo. <br> <span class="contat">Faça seu contato sem se inscrever, preenchendo este formulário.</span>
+      </p>
+      <form>
+        <div id="input-name">
+          <input type="text" placeholder="Insira seu nome">
+          <div id="icon-person">
+            <iconify-icon icon="material-symbols:person" style="color:#840ec9;" width="25"></iconify-icon>
+          </div>
+        </div>
+        <div id="input-tel">
+          <input type="tel" placeholder="Insira seu número de celular">
+          <div id="icon-tel">
+            <iconify-icon icon="material-symbols:phone-android-outline-rounded" style="color: #840ec9;" width="25"></iconify-icon>
+          </div>
+        </div>
+        <div id="input-email">
+          <input type="email" placeholder="Insira seu e-mail">
+          <div id="icon-email">
+            <iconify-icon icon="ic:baseline-email" style="color: #840ec9;" width="25"></iconify-icon>
+          </div>
+        </div>
+
+        <input type="submit" placeholder="Enviar" id="btn-enviar">
+
+      </form>
+    </aside>
+    <img src="/img/office.svg" alt="OFFICE">
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
+
+</body>
+
+</html>
